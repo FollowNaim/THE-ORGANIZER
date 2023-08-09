@@ -239,21 +239,21 @@ def arrange_images():
             file for file in files if os.path.splitext(file)[1].lower() in img_ext
         ]
         print("\nSearching for Images", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.2)
         print("Done")
-        if len(images) == 0:
+        if not images:
             print("No images found !!")
         else:
             print(f"Found {len(images)} images !!")
             print("\nSearching for 'Images' directory", end="")
-            for i in range(10):
+            for _ in range(10):
                 print(".", end="", flush=True)
                 sleep(0.2)
             if os.path.exists("Images") == False:
                 print("Not Found !!\nSo creating", end="")
-                for i in range(10):
+                for _ in range(10):
                     print(".", end="", flush=True)
                 sleep(0.2)
                 os.mkdir("Images")
@@ -276,21 +276,21 @@ def arrange_docs():
             file for file in files if os.path.splitext(file)[1].lower() in doc_ext
         ]
         print("\nSearching for Documents", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.2)
         print("Done")
-        if len(documents) == 0:
+        if not documents:
             print("No documents found !!")
         else:
             print(f"Found {len(documents)} documents !!")
             print("\nSearching for 'Documents' directory", end="")
-            for i in range(10):
+            for _ in range(10):
                 print(".", end="", flush=True)
                 sleep(0.2)
             if os.path.exists("Documents") == False:
                 print("Not Found !!\nSo creating", end="")
-                for i in range(10):
+                for _ in range(10):
                     print(".", end="", flush=True)
                 sleep(0.2)
                 os.mkdir("Documents")
@@ -315,21 +315,21 @@ def arrange_videos():
             file for file in files if os.path.splitext(file)[1].lower() in video_ext
         ]
         print("\nSearching for Videos", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.2)
         print("Done")
-        if len(videos) == 0:
+        if not videos:
             print("No videos found !!")
         else:
             print(f"Found {len(videos)} videos !!")
             print("\nSearching for 'Videos' directory", end="")
-            for i in range(10):
+            for _ in range(10):
                 print(".", end="", flush=True)
                 sleep(0.2)
             if os.path.exists("Videos") == False:
                 print("Not Found !!\nSo creating", end="")
-                for i in range(10):
+                for _ in range(10):
                     print(".", end="", flush=True)
                 sleep(0.2)
                 os.mkdir("Videos")
@@ -350,21 +350,21 @@ def arrange_audios():
             file for file in files if os.path.splitext(file)[1].lower() in audio_ext
         ]
         print("\nSearching for Audios", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.2)
         print("Done")
-        if len(audios) == 0:
+        if not audios:
             print("No audio found !!")
         else:
             print(f"Found {len(audios)} audios !!")
             print("\nSearching for 'Audios' directory", end="")
-            for i in range(10):
+            for _ in range(10):
                 print(".", end="", flush=True)
                 sleep(0.2)
             if os.path.exists("Audios") == False:
                 print("Not Found !!\nSo creating", end="")
-                for i in range(10):
+                for _ in range(10):
                     print(".", end="", flush=True)
                 sleep(0.2)
                 os.mkdir("Audios")
@@ -387,21 +387,21 @@ def arrange_archives():
             file for file in files if os.path.splitext(file)[1].lower() in archive_ext
         ]
         print("\nSearching for Archives", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.2)
         print("Done")
-        if len(archives) == 0:
+        if not archives:
             print("No archives found !!")
         else:
             print(f"Found {len(archives)} archives !!")
             print("\nSearching for 'Archives' directory", end="")
-            for i in range(10):
+            for _ in range(10):
                 print(".", end="", flush=True)
                 sleep(0.2)
             if os.path.exists("Archives") == False:
                 print("Not Found !!\nSo creating", end="")
-                for i in range(10):
+                for _ in range(10):
                     print(".", end="", flush=True)
                 sleep(0.2)
                 os.mkdir("Archives")
@@ -424,21 +424,21 @@ def arrange_books():
             file for file in files if os.path.splitext(file)[1].lower() in book_ext
         ]
         print("\nSearching for Books", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.2)
         print("Done")
-        if len(books) == 0:
+        if not books:
             print("No books found !!")
         else:
             print(f"Found {len(books)} books !!")
             print("\nSearching for 'Books' directory", end="")
-            for i in range(10):
+            for _ in range(10):
                 print(".", end="", flush=True)
                 sleep(0.2)
             if os.path.exists("Books") == False:
                 print("Not Found !!\nSo creating", end="")
-                for i in range(10):
+                for _ in range(10):
                     print(".", end="", flush=True)
                 sleep(0.2)
                 os.mkdir("Books")
@@ -459,21 +459,21 @@ def arrange_codes():
             file for file in files if os.path.splitext(file)[1].lower() in code_ext
         ]
         print("\nSearching for Codes", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.2)
         print("Done")
-        if len(codes) == 0:
+        if not codes:
             print("No codes found !!")
         else:
             print(f"Found {len(codes)} codes !!")
             print("\nSearching for 'Codes' directory", end="")
-            for i in range(10):
+            for _ in range(10):
                 print(".", end="", flush=True)
                 sleep(0.2)
             if os.path.exists("Codes") == False:
                 print("Not Found !!\nSo creating", end="")
-                for i in range(10):
+                for _ in range(10):
                     print(".", end="", flush=True)
                 sleep(0.2)
                 os.mkdir("Codes")
@@ -507,21 +507,21 @@ def arrange_other():
             ):
                 others_ext.append(file)
         print("\nSearching for other files", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.2)
         print("Done")
-        if len(others_ext) == 0:
+        if not others_ext:
             print("No others files found !!")
         else:
             print(f"Found {len(others_ext)} others files !!")
             print("\nSearching for 'Others' directory", end="")
-            for i in range(10):
+            for _ in range(10):
                 print(".", end="", flush=True)
                 sleep(0.2)
             if os.path.exists("Others") == False:
                 print("Not Found !!\nSo creating", end="")
-                for i in range(10):
+                for _ in range(10):
                     print(".", end="", flush=True)
                 sleep(0.2)
                 os.mkdir("Others")
@@ -545,7 +545,7 @@ def delete_empty_folder():
         empty_folders = []
         count = 0
         print("\nSearching for Empty folders", end="")
-        for i in range(10):
+        for _ in range(10):
             print(".", end="", flush=True)
             sleep(0.3)
         for file in files:
@@ -555,7 +555,7 @@ def delete_empty_folder():
                     count += 1
                     os.rmdir(file)
         print("Done !!")
-        if len(empty_folders) != 0:
+        if empty_folders:
             print(f"Successfully deleted {count} empty folders\n")
         else:
             print("No empty folders found !!\n")
